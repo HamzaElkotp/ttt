@@ -1,0 +1,148 @@
+/* Main Settings */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+*, body, button, input, textarea{
+    font-family: 'Changa', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+ul,li{
+    list-style: none;
+}
+i{
+    padding: 0px;
+}
+
+
+:root{
+    
+    /* Grids */
+    --main-grid: repeat(auto-fill, minmax(200px, 1fr));
+    --second-grid: repeat(auto-fill, minmax(280px, 1fr));
+    --third-grid: repeat(auto-fill, minmax(120px, 1fr));
+
+    /* Font Sizes */
+    --fsize10: 10.24px;
+    --fsize12: 12.8px;
+    --fsize14: 14px;
+    --fsize16: 16px;
+    --fsize18: 18px;
+    --fsize20: 20px;
+    --fsize25: 25px;
+    --fsize31: 31.25px;
+    --fsize39: 39.0.6px;
+    --fsize48: 48.83px;
+
+    /* Colors */
+    --bDarkbg: #090a0e;
+    --bLightbg: #2f353e;
+    --darkBg: #0e1118;
+    --lightBg: #112844;
+    --whiteBg: #fff;
+    --purplbg: #ffffff;
+    
+    --graySh: #f6f5f8;
+    --gray20: #eaf7fb;
+    --gray30: #f8fafb;
+    --gray40: #e3e3e3;
+    --gray50: #97a4b4;
+    --gray90: #455362;
+   
+    --blueL: #10bcf6;
+    --blueD: #156688;
+    --blueP: #1977f2;
+    --blueH: #5e7dfd;
+    --gold: #e4bb49;
+    --yellow: #776633;
+    --orange: #ff823f;
+    --pink: #ffa7a7;
+    --pinkD: #d69cb2;
+    --pinkH: #f56082;
+    --pinkP: #748193;
+    --green: #a1edb1;
+    --greenL: #42b892;
+    --greenLL: #e1ece4;
+
+    --logogold30: #fdb913; 
+    --logogold60: #f7941d; 
+
+
+
+}
+
+/* *::-webkit-scrollbar {
+    width: 7px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--second-color);
+    box-shadow: inset 0 0 6px var(--second-color);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #ff3333;
+    border-radius: 5px;
+}
+:root {
+    scrollbar-color: #ff3333 var(--second-color) !important;
+    scrollbar-width: thin !important;
+} */
+
+.charachter {
+    height: 300px;
+}
+.msgBox {
+    height: 350px;
+}
+.sendbox {
+    height: 45px;
+}
+.sendbox textarea{
+    width: calc(100% - 52px);
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid var(--bLightbg);
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.sendbox button {
+    width: 50px;
+    margin-left: 2px;
+    border-radius: 50%;
+    border: 1px solid var(--bLightbg);
+    height: 45px;
+    width: 45px;
+    background-color: var(--blueP);
+    cursor: pointer;
+}
+.columns{
+    margin-bottom: 0 !important;
+}
+.column.is-10 {
+    margin-bottom: 10px !important;
+}
+.column.is-2 {
+    background-color: var(--darkBg);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 0;
+    overflow-y: auto;
+}
+.column.is-2 a {
+    text-decoration: none !important;
+    color: var(--whiteBg);
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 8px 10px;
+    border-radius: 10px 0px 0px 10px !important;
+}
+.column.is-2 a.active {
+    background-color: #bfcef0;
+    color: var(--darkBg);
+}
