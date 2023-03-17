@@ -1,5 +1,28 @@
 {
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaElkotp/ttt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamzaElkotp/ttt/issues"
+  },
+  "homepage": "https://github.com/HamzaElkotp/ttt#readme",
   "dependencies": {
-    "cors": "^2.8.5"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "openai": "^3.2.1"
   }
 }
